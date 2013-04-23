@@ -8,7 +8,7 @@
 Okay. You want to know how **Griddl** works. Lets give you a quick introduction:
 
 ###The *.section-wrapper* class
-The *.section-wrapper* class is the top-most layer of **Griddl**'s framework. It is a full-width div which is designed to allow you, the developer, to add full-bleed backgrounds to your content sections. At this point, it doesn't set up any *padding* or *attributes* - Only a *max-width* of 1366px - And this is completely overridable. Again, the goal here is for the framework to be as unopinionated as possible, allowing you to use it as you see fit. 
+The *.section-wrapper* class is the top-most layer of **Griddl**'s framework. It is a full-width div which is designed to allow you, the developer, to add full-bleed backgrounds to your content sections. At this point, it doesn't set up any *padding* or *margin* attributes - Only a *max-width* of 1366px - And this is completely overridable. Again, the goal here is for the framework to be as unopinionated as possible, allowing you to use it as you see fit. 
 
 ##The \<section> tag (& *.section* class)
 *(NOTE: These two things behave in exactly the same way. They are both defined so as to give you the option of which to use)*
