@@ -1,6 +1,6 @@
 #Griddl
 ##A flexible, responsive grid system
-**Griddl** aims to be a truly flexible responsive grid system. Other grids might force you into using a certain number of columns, or laying things out purely in rows, but **Griddl** doesn't do that. Its purely a foundation to be built up from.
+**Griddl** aims to be a truly flexible responsive grid system. Other grids might force you into using a certain number of columns, or laying things out purely in rows, but **Griddl** doesn't do that. Its purely a foundation to be built up from. Because of this, **Griddl** is only 2kb (compressed CSS output from Compass, included here). That's pretty small for all the power and flexibility it gives you!
 
 **Griddl** was originally built by David Eglin, of Connect Advertising & Marketing, for use on the Jaguar.co.uk website, to fix a number of shortfalls in other frameworks.
 
@@ -43,4 +43,4 @@ So, in the following example:
 The second div will appear on the left, and the first on the right, but on mobile the first div will still appear first. Nifty or what? 
 
 ##The best is yet to come…
-There is so much more yet to come from this framework. At the moment it is a bare-bones starting block for a basic responsive grid, but it will be developed over time to be more powerful and even more flexible. The basis for *boxes* (smaller, fixed-size elements designed to contain lozenges or specific calls-to-action) is already there, but needs expanding upon. **Griddl** will also expand to allow for more device "snap-points", too. At the moment there are only snap-points for mobile (639px width and below), tablet portrait (800px and below) and desktop (801px and upwards) devices, but this list will expand. 
+There is so much more yet to come from this framework. At the moment it is a bare-bones starting block for a basic responsive grid, but it will be developed over time to be more powerful and even more flexible. The basis for *boxes* (smaller, fixed-size elements designed to contain lozenges or specific calls-to-action) is already there, but needs expanding upon. **Griddl** will also expand to allow for more device "snap-points", too. At the moment there are only snap-points for mobile (639px width and below), tablet portrait (800px and below) and desktop (801px and upwards) devices, but this list will expand. Finally, the plan is for **Griddl** to contain some basic text baseline styles to ensure spacing and sizing coherence for your projects. Obviously, as with the rest of **Griddl**, you will be able to override and change this should you want to, but it will be included in the near future for your convenience. 
