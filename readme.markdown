@@ -37,8 +37,8 @@ This class controls the horizontal outdenting of an *.el* element. So a class of
 
 So, in the following example:
 
-```<div class="el width-1of2 in-1of2"></div>
-<div class="el width-1of2 out-1of2"></div>```
+    <div class="el width-1of2 in-1of2"></div>
+    <div class="el width-1of2 out-1of2"></div>
 
 The second div will appear on the left, and the first on the right, but on mobile the first div will still appear first. Nifty or what? 
 
