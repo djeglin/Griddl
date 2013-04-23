@@ -11,7 +11,7 @@ Okay. You want to know how **Griddl** works. Lets give you a quick introduction:
 The *.section-wrapper* class is the top-most layer of **Griddl**'s framework. It is a full-width div which is designed to allow you, the developer, to add full-bleed backgrounds to your content sections. At this point, it doesn't set up any *padding* or *attributes* - Only a *max-width* of 1366px - And this is completely overridable. Again, the goal here is for the framework to be as unopinionated as possible, allowing you to use it as you see fit. 
 
 ##The \<section> tag (& *.section* class)
-(*NOTE: These two things behave in exactly the same way. They are both defined so as to give you the option of which to use*)
+*(NOTE: These two things behave in exactly the same way. They are both defined so as to give you the option of which to use)*
 
 The \<section> tag sets up your content regions within your *.section-wrapper* elements. In the version of **Griddl** here, it is set at 96% of browser width, with a *max-width* of 960px, but obviously, you can change that to your liking. Once again, there are no *padding* or *margin* set at this point - You shoudl set them yourself in your own styles. The soul purpose of these elements is to align your content to the center of the available viewport, and set up a maximum width for that content. 
 
@@ -20,18 +20,18 @@ This is where it all starts to come together. The *.el* class is the heart of **
 
 There are a number of other classes that can be applied to the *.el* elements, as follows:
 
-###.width-*x*of*y*
-(*i.e. .width-1of2*)
+###.width-xofy
+*(i.e. .width-1of2)*
 
 This class controls the width of each *.el* element. Think of it as "*x* of *y* columns" - So *.width-1of2* will give you a 50% width element. If you look at **Griddl**.scss, you will see that there are definitions for 2,3,4,5,6 and 8 column widths. You can combine these all within the same \<section> element, too - So you can use a *.width-1of2* element alongside 2 *.width-1of4* elements to make up a whole row. The option has been provided though, if you find it easier, to keep the same number of columns for a given section - So a *.width-1of2* element is the same as a *.width-2of4* element. Flexible, huh? 
 
-###.in-*x*of*y*
-(*i.e. .in-1of2*)
+###.in-xofy
+*(i.e. .in-1of2)*
 
 This class controls the horizontal indenting of an *.el* element. So a class of *.in-1of2* will indent the element by 50% of the viewport width. 
 
-###.out-*x*of*y*
-(*i.e. .out-1of2*)
+###.out-xofy
+*(i.e. .out-1of2)*
 
 This class controls the horizontal outdenting of an *.el* element. So a class of *.out-1of2* will outdent the element by 50% of the viewport width. This isn't really useful on its own, but when used in combination with indented elements, it allows you to swap the visual order of elements for desktop and tablet, whilst maintaining the source order you desire for mobile devices. 
 
