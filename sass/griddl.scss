@@ -73,7 +73,7 @@ body .container { /* applied to elements that contain nested sub-elements */
 	}
 }
 
-@media (max-width: 639px) {
+@media (max-width: 640px) {
 	.section,
 	.section-wrapper > section {
 		width: 96%;
@@ -85,7 +85,7 @@ body .container { /* applied to elements that contain nested sub-elements */
 	}
 }
 
-@media (min-width: 640px) {
+@media (min-width: 641px) {
 
 	/* element sizes set with "width-" classes */
 	.width-1of2, .width-2of4, .width-3of6, .width-4of8 { width: 50%; }
@@ -140,7 +140,7 @@ body .container { /* applied to elements that contain nested sub-elements */
 	.out-7of8 { left: -87.5%; }
 }
 
-@media (min-width: 640px) and (max-width: 800px) {
+@media (min-width: 641px) and (max-width: 800px) {
 	.section,
 	.section-wrapper > section {
 		width: 96%;
@@ -155,6 +155,14 @@ body .container { /* applied to elements that contain nested sub-elements */
 	/* nested elements become 100% width at this size (for ipad portrait) */
 	body .el .el {
 		left: 0;
+		width: 100%;
+	}
+	
+	.width-1of4, .width-1of6, .width-1of8 {
+		width: 50%;
+	}
+	
+	.width-2of4, .width-3of6, .width-4of8 {
 		width: 100%;
 	}
 }
